@@ -1,6 +1,6 @@
 body {
 	background-color: lightgrey;
-	background: url("images/whiteHouse.jpg");
+	
 }
 
 div {
@@ -15,6 +15,7 @@ p {
 	font-weight: 400;
 }
 .hi_span {
+	background-image: url("images/whiteHouse.jpg")
 
 
 }
