@@ -1,6 +1,6 @@
 body {
 	background-color: lightgrey;
-	
+	background: url("images/whiteHouse.jpg");
 }
 
 div {
@@ -24,7 +24,7 @@ p {
 	font-weight: 900;
 	font-size: 80px;
 	text-align: center;
-	background: url("images/whiteHouse.jpg");
+	
 	height: 150px;
 }
 
