@@ -24,7 +24,7 @@ p {
 	font-weight: 900;
 	font-size: 80px;
 	text-align: center;
-	background-image: url("https://github.com/ApfeLabs/VoiceOfTheTrumpet/blob/main/images/whiteHouse.jpg");
+	background-image: url('"https://github.com/ApfeLabs/VoiceOfTheTrumpet/blob/main/images/whiteHouse.jpg"');
 	height: 150px;
 }
 
