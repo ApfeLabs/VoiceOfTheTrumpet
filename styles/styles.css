@@ -1,0 +1,109 @@
+body {
+	background-color: lightgrey;
+	
+}
+
+div {
+	background-color: beige;
+	border-style:  solid;
+	margin: 10px;
+	padding: 10px;
+}
+p {
+	font-family: 'Raleway', sans-serif;
+	text-indent: 10px;
+	font-weight: 400;
+}
+.hi_span {
+
+
+}
+.top_div_header {
+	display: block;
+	font-family: Times New Roman, serif;
+	font-weight: 900;
+	font-size: 80px;
+	text-align: center;
+	background-image: url("C:\\Users\\owner\\Documents\\VoiceOfTheTrumpet\\images\\whiteHouse.jpg");
+	height: 170px;
+}
+
+.hi_div {
+	display: inline-block;
+	/*background-color:lightpink;*/
+	position: relative;
+	left: 10px;
+	width: 60%;
+	float: left;
+	border-style:  solid;
+
+
+}
+
+.trump_pic1 {
+	position: absolute;
+	float: right;
+	height: 200px;
+	width: 150px;
+}
+.top_div_p {
+	
+	font-weight: 200;
+	padding: 10px;
+	margin: 10px;
+
+}
+.aside_div {
+	display: block;
+	background-color:lightblue;
+	float: right;
+	margin-right: 10px;
+	padding: 20px;
+	border-style: solid;
+	border-radius: 10%;
+	position: absolute;
+	right: 10px;
+	width: 30%;
+}
+
+.aside_p {
+	font-family: 'Newsreader', serif;
+	font-weight: 400; 
+}
+
+.aside_header{
+	font-weight: 700;
+	font-family: 'Newsreader', serif;
+	text-align: center;
+}
+
+.low_div {
+	display: inline-block;
+	position: relative;
+	left: 10px;
+	width: 60%;
+	float: left;
+	border-style: solid;
+}
+
+.flagLiberty {
+	float: right;
+	height: 200px;
+	width: 350px;
+
+}
+
+footer {
+    clear: both;
+    width:100%;
+    text-align: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+    font-family: Bodini MT Black, serif;
+    border-style:  solid;
+}
+.footer_div {
+	
+
+}
