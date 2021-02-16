@@ -14,10 +14,8 @@ p {
 	text-indent: 10px;
 	font-weight: 400;
 }
-.hi_span {
-	background-image: url("https://github.com//ApfeLabs//VoiceOfTheTrumpet//blob//main//images//whiteHouse.jpg");
-
-
+#hello_head {
+	text-indent: 20px;
 }
 .top_div_header {
 	display: block;
@@ -25,8 +23,8 @@ p {
 	font-weight: 900;
 	font-size: 80px;
 	text-align: center;
-	
-	height: 150px;
+	background-image: url("images/whiteHouse.jpg");
+	height: 170px;
 }
 
 .hi_div {
@@ -59,7 +57,7 @@ p {
 	background-color:lightblue;
 	float: right;
 	margin-right: 10px;
-	padding: 20px;
+	padding: 10px;
 	border-style: solid;
 	border-radius: 10%;
 	position: absolute;
