@@ -15,7 +15,7 @@ p {
 	font-weight: 400;
 }
 #hello_head {
-	text-indent: 20px;
+	text-indent: 50px;
 }
 .top_div_header {
 	display: block;
@@ -23,7 +23,7 @@ p {
 	font-weight: 900;
 	font-size: 80px;
 	text-align: center;
-	background-image: url("https://www.bing.com/images/search?q=&view=detailv2&id=929A3AC26CCBF14384E31018C53E305A4BFB55C0&ccid=uoWzyVDW&iss=fav&FORM=SVIM01&idpview=singleimage&mediaurl=http%253a%252f%252fcdn-image.travelandleisure.com%252fsites%252fdefault%252ffiles%252fstyles%252f1600x1000%252fpublic%252f1474564839%252fwhite-house-GARDEN0916.jpg%253fitok%253dH_hXGUy4&expw=1600&exph=1000&thid=OIP.uoWzyVDWrtZE60xDOe-EugHaEo");
+	background-image: url("images/whiteHouse.jpg");
 	height: 170px;
 }
 
