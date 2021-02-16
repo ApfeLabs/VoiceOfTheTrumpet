@@ -14,9 +14,8 @@ p {
 	text-indent: 10px;
 	font-weight: 400;
 }
-.hi_span {
-
-
+#hello_head {
+	text-indent: 20px;
 }
 .top_div_header {
 	display: block;
@@ -24,7 +23,7 @@ p {
 	font-weight: 900;
 	font-size: 80px;
 	text-align: center;
-	background-image: url("images/whiteHouse.jpg");
+	background-image: url("C:\\Users\\owner\\Documents\\VoiceOfTheTrumpet\\images\\whiteHouse.jpg");
 	height: 170px;
 }
 
@@ -58,7 +57,7 @@ p {
 	background-color:lightblue;
 	float: right;
 	margin-right: 10px;
-	padding: 20px;
+	padding: 10px;
 	border-style: solid;
 	border-radius: 10%;
 	position: absolute;
