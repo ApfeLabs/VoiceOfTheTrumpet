@@ -49,7 +49,7 @@ textarea {
 	border-style: solid;
 	border-radius: 5%;
 	columns: 50;
-	
+
 }
 #hello_head {
 	text-indent: 20px;
@@ -60,7 +60,7 @@ textarea {
 	font-weight: 900;
 	font-size: 80px;
 	text-align: center;
-	background-image: url("C:\\Users\\owner\\Documents\\VoiceOfTheTrumpet\\images\\whiteHouse.jpg");
+	background-image: url("images\\whiteHouse.jpg");
 	height: 170px;
 }
 
