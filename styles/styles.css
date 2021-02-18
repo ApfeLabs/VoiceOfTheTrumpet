@@ -4,15 +4,52 @@ body {
 }
 
 div {
+	position: relative;
 	background-color: beige;
 	border-style:  solid;
-	margin: 10px;
+	margin: 5px;
 	padding: 10px;
 }
 p {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Newsreader', sans-serif;
 	text-indent: 10px;
 	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0000ff;
+  padding: 5px;
+  font-family: 'Oswald', serif;
+  text-shadow: 5px 5px lightgrey;
+
+}
+
+fieldset {
+	
+}
+label {
+	margin: 5px;
+	padding: 5px;
+
+}
+
+input {
+	margin: 5px;
+	padding: 5px;
+	border-style: solid;
+	border-radius: 10%;
+}
+textarea {
+	margin-right: 5px;
+	padding: 5px;
+	border-style: solid;
+	border-radius: 5%;
+	columns: 50;
+	
 }
 #hello_head {
 	text-indent: 20px;
@@ -23,7 +60,7 @@ p {
 	font-weight: 900;
 	font-size: 80px;
 	text-align: center;
-	background-image: url("https://github.com/ApfeLabs/VoiceOfTheTrumpet/blob/main/images/whiteHouse.jpg?raw=true");
+	background-image: url("C:\\Users\\owner\\Documents\\VoiceOfTheTrumpet\\images\\whiteHouse.jpg");
 	height: 170px;
 }
 
@@ -105,4 +142,25 @@ footer {
 .footer_div {
 	
 
+}
+.title {
+	font-weight: 500;
+	font-family: 'Oswald', serif; 
+	
+	text-align: center;
+
+
+}
+.author {
+	text-align: center;
+
+
+}
+.article_p {
+	font-weight:300;
+	font-family: 'Newsreader', serif;
+	margin: 15px;
+
+}
+.form_title_input {
 }

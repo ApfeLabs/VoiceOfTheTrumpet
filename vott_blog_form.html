@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Newsreader&family=Raleway:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="icon" type="" href="favicon.ico">
+	<title>The Voice of the Trumpet Blog</title>
+</head>
+<body>
+	<h1 class="top_div_header">The Voice of the Trumpet Blog</h1>
+	<hr>
+	<p>Want to go back?  <button><a href="index2.html">Back to Main</a></button></p> 
+	<hr>
+	
+	
+
+	<form action="vott_blog.html" method="get">
+		<legend class=""><h2>Blog Input Form</h3></legend> 
+		
+	<label class="form_title_input" placeholder="Title"> 
+		<input type="text"  id="yourTitle" value="title">
+	</label>
+
+	<br>
+	
+	<label class="aside_p"> 
+		<input type="text" id="author" value="author">
+	</label>
+
+	<br>
+	
+	<label> 
+		<textarea  cols="50" rows="10" id="post_input" value="What's on your mind?"  placeholder="Your Message"></textarea>
+	</label>
+	
+	<br>
+		<button type="button" name="Submit" id="butt" formaction="vott_blog.html"   onclick="blog_title()">SUBMIT</button>
+	<hr>
+		<script>
+			function blog_title() {
+				let title=document.getElementById("yourTitle").value;
+				document.getElementById("title1").innerHTML=title;
+
+				let author=document.getElementById("author").value;
+				document.getElementById("author1").innerHTML='submited by' + author;
+
+				let post = document.getElementById("post_input").value;
+				document.getElementById("post_form_input1").innerHTML= post;
+
+				alert( title + " is now live!"  )
+
+			}
+			
+		</script>
+	</form>
+<hr>
+<div>
+<h1 id="title1" placeholder="Title"></h1>
+<h3 class="top_div_p" id="author1" placeholder="Author"></h3>
+	
+	<p class="top_div_p" id="post_form_input1" placeholder="Your Message"></p>
+</div>
+	
+</body>
+<footer>Website Design by ApfeLabs Media Group © 2021 <br><br><a class="btn" href="mailto:ApfeLabsMedia@gmail.com">Drop Us a Line.</a></footer>
+</html>
