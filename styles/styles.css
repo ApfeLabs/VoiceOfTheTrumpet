@@ -58,9 +58,9 @@ textarea {
 	display: block;
 	font-family: Times New Roman, serif;
 	font-weight: 900;
-	font-size: 80px;
+	font-size: 75px;
 	text-align: center;
-	background-image: url("images\\whiteHouse.jpg");
+	background-image: url("https://github.com/ApfeLabs/VoiceOfTheTrumpet/blob/main/images/whiteHouse.jpg");
 	height: 170px;
 }
 
